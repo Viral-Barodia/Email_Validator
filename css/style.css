@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 0px;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.logo img{
+    width: 25px;
+    filter: invert(1);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(85, 71, 236);
+}
+
+main{
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+    padding: 12px;
+}
+
+input[type='text']{
+    min-width: 200px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#resultCont img{
+    width: 30px;
+    padding: 20px;
+}
+
+#resultCont div::first-letter{
+    text-transform: capitalize;
+}
+
+.btn{
+    border: 1px solid gray;
+    padding: 9px 12px;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer{
+    font-size: 12px;
+    padding: 12px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .container{
+        font-size: 12px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        padding: 6px 0;
+        font-size: 15px;
+    }
+
+    .logo img{
+            width: 15px;
+            filter: invert(1);
+    }
+
+    .btn{
+        border: 1px solid gray;
+        padding: 5px 6px;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
