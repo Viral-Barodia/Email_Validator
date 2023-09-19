@@ -1,22 +1,22 @@
 console.log("This is my script")
 
-let result = {
-    "tag": "",
-    "free": false,
-    "role": false,
-    "user": "202001007",
-    "email": "202001007@daiict.ac.in",
-    "score": 0.8,
-    "state": "deliverable",
-    "domain": "daiict.ac.in",
-    "reason": "valid_mailbox",
-    "mx_found": true,
-    "catch_all": null,
-    "disposable": false,
-    "smtp_check": true,
-    "did_you_mean": "",
-    "format_valid": true
-}
+// let result = {
+//     "tag": "",
+//     "free": false,
+//     "role": false,
+//     "user": "202001007",
+//     "email": "202001007@daiict.ac.in",
+//     "score": 0.8,
+//     "state": "deliverable",
+//     "domain": "daiict.ac.in",
+//     "reason": "valid_mailbox",
+//     "mx_found": true,
+//     "catch_all": null,
+//     "disposable": false,
+//     "smtp_check": true,
+//     "did_you_mean": "",
+//     "format_valid": true
+// }
 
 submitBtn.addEventListener("click", async (e) => {
     e.preventDefault()
